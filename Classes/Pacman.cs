@@ -118,7 +118,16 @@ namespace Pacman_KCK.Classes
                 }
                 currDirection = direction;
                 UpdatePacmanSprite();
-                //TODO: checking for points / ghosts collision
+                CheckIfPacmanScoredAPoint();
+                //TODO: checking for ghosts collision
+            }
+        }
+
+        private void CheckIfPacmanScoredAPoint()
+        {
+            if (Form1.boardGenerator.Map[y, x] == (int)Objects.point)
+            {
+                Form1.points.EatPoint(y,x);
             }
         }
 

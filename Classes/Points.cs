@@ -34,10 +34,10 @@ namespace Pacman_KCK.Classes
             }
         }
 
-        public void EatPoint(int x, int y)
+        public void EatPoint(int y, int x)
         {
-            Form1.boardGenerator.Map[x, y] = (int)Objects.empty;
-            points[x, y].Visible = false;
+            Form1.boardGenerator.Map[y, x] = (int)Objects.empty;
+            points[y, x].Visible = false;
             count--;
             if(count == 0)
             {
