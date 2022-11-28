@@ -15,6 +15,7 @@ namespace Pacman_KCK
     public partial class Form1 : Form
     {
         public static BoardGenerator boardGenerator = new BoardGenerator();
+        public static Points points = new Points();
         public static Pacman pacman = new Pacman();
         public Form1()
         {
@@ -26,6 +27,7 @@ namespace Pacman_KCK
         {
             boardGenerator.CreateMapOnForm(this);
             boardGenerator.InitializeMap();
+            points.InitializePointsOnMap(this);
 
             var pacmanSpawnpoint = boardGenerator.SetSpawnPoint(1, 1);
             pacman.CreatePacman(this, pacmanSpawnpoint.Item1, pacmanSpawnpoint.Item2);
