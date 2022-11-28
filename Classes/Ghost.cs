@@ -166,7 +166,20 @@ namespace Pacman_KCK.Classes
                 x[ghostNum] = 0;
                 return true;
             }
-            return Form1.boardGenerator.Map[yy, xx] != (int)Objects.wall;
+            return Form1.boardGenerator.Map[yy, xx] != (int)Objects.wall && !CheckCollisionWithOtherGhosts(yy,xx,ghostNum);
+        }
+
+        private bool CheckCollisionWithOtherGhosts(int yy, int xx, int ghostNum)
+        {
+            var collision = false;
+            for(int i = 0; i < 4; i++)
+            {
+                if(i != ghostNum)
+                {
+                    collision = xx == x[ghostNum] && yy == y[ghostNum];
+                }
+            }
+            return collision;
         }
 
         private void UpdateGhostSprite(int ghostNum)
