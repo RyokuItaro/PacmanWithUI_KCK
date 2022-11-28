@@ -17,6 +17,7 @@ namespace Pacman_KCK
         public static BoardGenerator boardGenerator = new BoardGenerator();
         public static Points points = new Points();
         public static Pacman pacman = new Pacman();
+        public static Ghost ghosts = new Ghost();
         public Form1()
         {
             InitializeComponent();
@@ -31,6 +32,8 @@ namespace Pacman_KCK
 
             var pacmanSpawnpoint = boardGenerator.SetSpawnPoint(1, 1);
             pacman.CreatePacman(this, pacmanSpawnpoint.Item1, pacmanSpawnpoint.Item2);
+
+            ghosts.CreateGhosts(this);
         }
 
         protected override void OnKeyDown(KeyEventArgs e)

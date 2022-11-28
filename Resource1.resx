@@ -121,6 +121,33 @@
   <data name="board" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\board.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ghost0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghost0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostDown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghostDown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostDown2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghostDown2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostLeft1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghostLeft1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostLeft2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghostLeft2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostRight1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghostRight1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostRight2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghostRight2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostUp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghostUp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostUp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ghostUp2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pacman0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\pacman0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
