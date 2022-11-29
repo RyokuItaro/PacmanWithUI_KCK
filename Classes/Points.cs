@@ -41,7 +41,7 @@ namespace Pacman_KCK.Classes
             count--;
             if(count == 0)
             {
-                //TODO: smth if all points eaten
+                throw new Exception("won");
             }
         }
     }
