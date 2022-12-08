@@ -41,7 +41,7 @@ namespace Pacman_KCK.Classes
             count--;
             if(count == 0)
             {
-                throw new Exception("won");
+                LabelGenerator.GameWon();
             }
         }
     }

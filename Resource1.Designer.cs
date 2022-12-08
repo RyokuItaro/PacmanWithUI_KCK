@@ -213,6 +213,16 @@ namespace Pacman_KCK {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pacmanMainmenu {
+            get {
+                object obj = ResourceManager.GetObject("pacmanMainmenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pacmanRight1 {
             get {
                 object obj = ResourceManager.GetObject("pacmanRight1", resourceCulture);

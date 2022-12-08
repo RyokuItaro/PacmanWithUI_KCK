@@ -119,7 +119,6 @@ namespace Pacman_KCK.Classes
                 currDirection = direction;
                 UpdatePacmanSprite();
                 CheckIfPacmanScoredAPoint();
-                //TODO: checking for ghosts collision
             }
         }
 

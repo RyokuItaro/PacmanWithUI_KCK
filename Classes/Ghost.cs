@@ -132,9 +132,16 @@ namespace Pacman_KCK.Classes
 
         private void CheckPacmanCollision(int ghostNum)
         {
-            if (x[ghostNum] == Form1.pacman.x && y[ghostNum] == Form1.pacman.y)
+            if ((x[ghostNum] == Form1.pacman.x 
+                || x[ghostNum] == Form1.pacman.x + 1
+                || x[ghostNum] == Form1.pacman.x - 1)
+                && 
+                (y[ghostNum] == Form1.pacman.y
+                || y[ghostNum] == Form1.pacman.y + 1
+                || y[ghostNum] == Form1.pacman.y - 1)
+                )
             {
-                throw new Exception("test");
+                LabelGenerator.GameLost();
             }
         }
 
